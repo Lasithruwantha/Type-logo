@@ -2,10 +2,10 @@ import sys
 import time
 
 def animated(text):
-  for x in text
-  sys.stdout.write(x)
-  sys.stdout.flush()
-  time.sleep(0.005)
+  for x in text:
+   sys.stdout.write(x)
+   sys.stdout.flush()
+   time.sleep(0.005)
 
 logo = '''
 \033[0;31m __    __                      __                           
